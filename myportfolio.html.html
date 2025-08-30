@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h2 class="logo">Port<span>folio</span></h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="C:\Users\CADD TECH SOLUTIONS\Desktop\css\vivek\vivekResume1.pdf" class="btn">Download CV</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-img">
+      <div class="glow"></div>
+      <img src="C:\Users\CADD TECH SOLUTIONS\Desktop\css\vivek\vivek.img.jpeg" alt="Profile">
+    </div>
+    <section id="Home">
+    <div class="hero-text">
+      <h4>Hello, I'm</h4>
+      <h1>VIVEKANANDHAN <span>L</span></h1>
+      <h3>And I'm a <span class="typing"></span></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">🐦</a>
+        <a href="#">💼</a>
+        <a href="#">🔗</a>
+      </div>
+      <div class="hero-btns">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+    </section>
+  </section>
+   <section id="about">
+      <div class="card">
+        <small>LET ME INTRODUCE MYSELF</small>
+        <h3>About Me</h3>
+        <p>I am a passionate Java Full Stack Developer with strong expertise in building scalable and efficient web applications. Skilled in both front-end (HTML, CSS, JavaScript) and back-end (Java,Python,MYSQL) technologies, I specialize in delivering end-to-end solutions that enhance user experience and business performance.
+
+With hands-on experience in databases (MySQL) and cloud deployment, I enjoy solving complex problems, optimizing system performance, and contributing to high-quality software development.
+
+
+✨ I am highly motivated, detail-oriented, and always eager to learn new technologies while collaborating in agile teams to build innovative digital solutions.</p>
+      </div>
+   <section id="skills">
+   <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+        <li>Responsive design, accessibility (WCAG)</li>
+        <li>React, Tailwind, basic Node.js</li>
+        <li>Performance optimization & SEO basics</li>
+      </ul>
+    </div>
+  </section>  <section id="services">
+    <div class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>Website design & development</li>
+        <li>Landing pages & marketing sites</li>
+        <li>UI prototyping & component systems</li>
+      </ul>
+    </div>
+  </section>  <section id="portfolio">
+    <div class="card">
+      <h2>Portfolio</h2>
+     <a href="C:\Users\CADD TECH SOLUTIONS\Desktop\css\vivek\myportfolio.html.html">click me</a>
+    </div>
+  </section>  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <form id="contactForm" class="grid" style="display:grid; gap:12px; grid-template-columns:1fr 1fr">
+        <input required name="name" placeholder="Vivekanandhan L" style="grid-column:span 1; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.15); background:transparent; color:var(--text)">
+        <input required type="email" name="email" placeholder="shansharmavivek3019@gmail.com" style="grid-column:span 1; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.15); background:transparent; color:var(--text)">
+        <textarea required name="MOBILE.NO" rows="5" placeholder="+91 9345789520 +91 6382335561" style="grid-column:1/-1; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.15); background:transparent; color:var(--text)"></textarea>
+        <textarea required name="Message" rows="5" placeholder=" Message typing...." style="grid-column:1/-1; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.15); background:transparent; color:var(--text)"></textarea>
+        <button class="btn primary" style="width:max-content">Send Message</button>
+      </form>
+      <p id="formMsg" class="lead" style="margin-top:8px"></p>
+    </div>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vivekanandhan L| All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
